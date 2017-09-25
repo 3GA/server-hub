@@ -1,0 +1,19 @@
+{
+  "name": "server-hub",
+  "version": "0.0.1",
+  "description": "Manages a pool of servers to serve static content. Provides a cli to add and remove servers",
+  "main": "bin/server.js",
+  "bin": {
+    "hub-server": "./bin/server.js",
+    "hub": "./bin/client.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kano Computing Ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "cli-logger": "^0.5.40",
+    "local-web-server": "^1.3.0-0"
+  }
+}
