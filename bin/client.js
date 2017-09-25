@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const net = require('net');
 const path = require('path');
 const logger = require('cli-logger');
