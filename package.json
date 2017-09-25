@@ -1,10 +1,10 @@
 {
   "name": "server-hub",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manages a pool of servers to serve static content. Provides a cli to add and remove servers",
   "main": "bin/server.js",
   "bin": {
-    "hub-server": "./bin/server.js",
+    "server-hub": "./bin/server.js",
     "hub": "./bin/client.js"
   },
   "scripts": {
